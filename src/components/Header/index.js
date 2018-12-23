@@ -1,18 +1,17 @@
 import React, {Component} from 'react';
-import { Site } from 'tabler-react';
+import { Container, Notification, AccountDropdown } from 'tabler-react';
+import { Link } from 'react-router-dom';
 
 const accountDropdownProps = {
   avatarURL: "https://via.placeholder.com/50x50",
   name: "Goos van den Bekerom",
   description: "Administrator",
   options: [
-    { icon: "user", value: "Profile" },
-    { icon: "settings", value: "Settings" },
-    { icon: "mail", value: "Inbox", badge: "6" },
-    { icon: "send", value: "Message" },
-    { isDivider: true },
-    { icon: "help-circle", value: "Need help?" },
-    { icon: "log-out", value: "Sign out" },
+    { icon: "user", value: "Profile", to: "/profile" },
+    { icon: "settings", value: "Settings", to: "/settings" },
+    "divider",
+    "help",
+    "logout",
   ],
 }
 
@@ -50,34 +49,43 @@ class Header extends Component {
         ),
         time: "2 hours ago",
       },
-    ]
+    ],
   }
 
   render() {
     const notifications = this.state.notifications || [];
+    const onMarkAllAsRead = () => this.setState(
+      () => ({
+        notifications: this.state.notifications.map(
+          v => ({...v, unread: false})
+        )
+      })
+    );
     const unreadCount = this.state.notifications.reduce(
       (a, v) => a || v.unread,
       false
     );
+
     return (
-        <Site.Header
-          href="/"
-          imageURL="logo.png"
-          alt="Skatesquare"
-          accountDropdown={accountDropdownProps}
-          notificationsTray={{
-            notificationsObjects: notifications,
-            markAllAsRead: () => 
-              this.setState(
-                () => ({
-                  notifications: this.state.notifications.map(
-                    v => ({...v, unread: false})
-                  )
-                })
-              ),
-            unread: unreadCount
-          }}
-        />
+        <header className="header py-4">
+            <Container>
+              <div className="d-flex">
+                
+                <Link to="/" className="header-brand">
+                  <img src="logo.png" className="header-brand-img" alt="Skatesquare" />
+                </Link>
+
+                <div className="d-flex order-lg-2 ml-auto">
+                  <Notification.Tray
+                    notificationsObjects={notifications}
+                    markAllAsRead={onMarkAllAsRead}
+                    unread={unreadCount}
+                  ></Notification.Tray>
+                  <AccountDropdown {...accountDropdownProps}></AccountDropdown>
+                </div>
+              </div>
+            </Container>
+        </header>
     );
   }
 }
