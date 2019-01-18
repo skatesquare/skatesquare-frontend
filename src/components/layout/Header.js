@@ -5,8 +5,10 @@ class Header extends Component {
   render() {
     return (
       <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+
           <Link to="/" className="navbar-brand">SkateSquare</Link>
+
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -20,6 +22,7 @@ class Header extends Component {
               </li>
             </ul>
           </div>
+          
         </nav>
       </header>
     )
