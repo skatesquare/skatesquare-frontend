@@ -7,26 +7,29 @@ class SearchBar extends Component {
   }
 
   onChange = e => this.setState({value: e.target.value})
+  onSubmit = e => {
+    e.preventDefault();
+    this.props.onSubmit(this.state.value);
+  }
 
   render() {
     return (
-      <div className="input-group mb-3">
-        <input 
-          type="text"
-          className="form-control"
-          placeholder="Search for a location or a skatespot"
-          onChange={this.onChange}
-        />
+      <form action="" onSubmit={this.onSubmit}>
+        <div className="input-group mb-3">
+          <input 
+            type="text"
+            className="form-control"
+            placeholder="Search for a location or a skatespot"
+            onChange={this.onChange}
+          />
 
-        <div className="input-group-append">
-          <button
-            className="btn btn-outline-secondary"
-            type="button"
-            onClick={this.props.onSubmit.bind(this, this.state.value)}>
-            Search
-          </button>
+          <div className="input-group-append">
+            <button className="btn btn-outline-secondary" type="submit">
+              Search
+            </button>
+          </div>
         </div>
-      </div>
+      </form>
     )
   }
 }
