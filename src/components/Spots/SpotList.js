@@ -1,17 +1,15 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import SpotCard from './SpotCard';
+import SpotListItem from './SpotListItem';
 
 class SpotList extends Component {
   render() {
     return (
-      <div className="row">
+      <ul className="list-unstyled">
         {this.props.spots.map(spot => (
-          <div className="col-sm-12 col-md-6 col-lg-4 mb-3">
-            <SpotCard key={spot._id} spot={spot} />
-          </div>
+          <SpotListItem key={spot._id} spot={spot} />
         ))}
-      </div>
+      </ul>
     )
   }
 }

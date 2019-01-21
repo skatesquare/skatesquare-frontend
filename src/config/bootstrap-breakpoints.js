@@ -1,5 +1,6 @@
 export default {
-  desktop: 992,
+  desktop: 1200,
+  laptop: 992,
   tablet: 768,
   mobile: 576
 }
