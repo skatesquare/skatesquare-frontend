@@ -1,6 +1,6 @@
 export default [
     {
-      "_id": "5c432eb1d0fcd84ca529efe0",
+      "id": "5c432eb1d0fcd84ca529efe0",
       "guid": "bc20df21-254b-4537-ae64-0d2432f43af5",
       "thumbnail": "http://placehold.it/150x150?text=thumbnail",
       "name": "aliqua laborum",
@@ -37,7 +37,7 @@ export default [
       ]
     },
     {
-      "_id": "5c432eb1ad243e4f9a04b363",
+      "id": "5c432eb1ad243e4f9a04b363",
       "guid": "6d6f9423-33e4-4710-a0a8-1bb77f4ecd73",
       "thumbnail": "http://placehold.it/150x150?text=thumbnail",
       "name": "magna aliquip",
@@ -74,7 +74,7 @@ export default [
       ]
     },
     {
-      "_id": "5c432eb1e09ff03ceb87445e",
+      "id": "5c432eb1e09ff03ceb87445e",
       "guid": "65c36414-0d8b-46d9-951c-b1cc1ca5c8f4",
       "thumbnail": "http://placehold.it/150x150?text=thumbnail",
       "name": "cupidatat tempor",
@@ -111,7 +111,7 @@ export default [
       ]
     },
     {
-      "_id": "5c432eb16d41071e43e0404d",
+      "id": "5c432eb16d41071e43e0404d",
       "guid": "3a787f73-c520-4725-8e33-68860c9c9243",
       "thumbnail": "http://placehold.it/150x150?text=thumbnail",
       "name": "in in mollit et nulla",
@@ -148,7 +148,7 @@ export default [
       ]
     },
     {
-      "_id": "5c432eb1772dd681c2cd190c",
+      "id": "5c432eb1772dd681c2cd190c",
       "guid": "4ec2c7bb-baba-4642-863e-f271c61b4c6c",
       "thumbnail": "http://placehold.it/150x150?text=thumbnail",
       "name": "deserunt labore pariatur magna mollit",
@@ -185,7 +185,7 @@ export default [
       ]
     },
     {
-      "_id": "5c432eb1f33f6949b166505b",
+      "id": "5c432eb1f33f6949b166505b",
       "guid": "c9fb3725-df5a-42a5-882d-0b9f1d4a9139",
       "thumbnail": "http://placehold.it/150x150?text=thumbnail",
       "name": "et veniam",
@@ -222,7 +222,7 @@ export default [
       ]
     },
     {
-      "_id": "5c432eb11ed36581160ab11f",
+      "id": "5c432eb11ed36581160ab11f",
       "guid": "0aff3fb1-b419-4d7b-9166-aa620ae94243",
       "thumbnail": "http://placehold.it/150x150?text=thumbnail",
       "name": "sit fugiat ullamco labore esse",
@@ -259,7 +259,7 @@ export default [
       ]
     },
     {
-      "_id": "5c432eb1f60b19230c9e9768",
+      "id": "5c432eb1f60b19230c9e9768",
       "guid": "b07bd607-0f3e-44f6-8698-370c0976c4ce",
       "thumbnail": "http://placehold.it/150x150?text=thumbnail",
       "name": "commodo tempor ea ad exercitation",
@@ -296,7 +296,7 @@ export default [
       ]
     },
     {
-      "_id": "5c432eb1dfd8e0ed8c236763",
+      "id": "5c432eb1dfd8e0ed8c236763",
       "guid": "3574b99e-b0cd-4a54-90ba-0561f87155ad",
       "thumbnail": "http://placehold.it/150x150?text=thumbnail",
       "name": "aliqua commodo",
@@ -333,7 +333,7 @@ export default [
       ]
     },
     {
-      "_id": "5c432eb121963e09264250de",
+      "id": "5c432eb121963e09264250de",
       "guid": "522e5e39-d43d-4e4f-8463-66b967fb9864",
       "thumbnail": "http://placehold.it/150x150?text=thumbnail",
       "name": "voluptate voluptate",
@@ -370,7 +370,7 @@ export default [
       ]
     },
     {
-      "_id": "5c432eb14780019f2f8a9678",
+      "id": "5c432eb14780019f2f8a9678",
       "guid": "882ca286-58e9-41b2-b1f3-561406772ea5",
       "thumbnail": "http://placehold.it/150x150?text=thumbnail",
       "name": "labore enim irure ad amet",
@@ -407,7 +407,7 @@ export default [
       ]
     },
     {
-      "_id": "5c432eb1a6ab234633f3cc2a",
+      "id": "5c432eb1a6ab234633f3cc2a",
       "guid": "5b526b90-070d-40b5-999d-db312ce8bb38",
       "thumbnail": "http://placehold.it/150x150?text=thumbnail",
       "name": "reprehenderit non",
@@ -444,7 +444,7 @@ export default [
       ]
     },
     {
-      "_id": "5c432eb126ebb924e8f37414",
+      "id": "5c432eb126ebb924e8f37414",
       "guid": "304883fa-0fa0-4dda-865e-6cf595426815",
       "thumbnail": "http://placehold.it/150x150?text=thumbnail",
       "name": "sint labore enim ipsum et",
@@ -481,7 +481,7 @@ export default [
       ]
     },
     {
-      "_id": "5c432eb137b264a4f415adc1",
+      "id": "5c432eb137b264a4f415adc1",
       "guid": "bd13c5f7-a902-4364-a81a-1360913162dc",
       "thumbnail": "http://placehold.it/150x150?text=thumbnail",
       "name": "velit nisi labore in est",
@@ -518,7 +518,7 @@ export default [
       ]
     },
     {
-      "_id": "5c432eb187636f58d36eb5d0",
+      "id": "5c432eb187636f58d36eb5d0",
       "guid": "62d543e7-b1ed-4504-b2ee-641ad73111a9",
       "thumbnail": "http://placehold.it/150x150?text=thumbnail",
       "name": "nulla irure",
@@ -555,7 +555,7 @@ export default [
       ]
     },
     {
-      "_id": "5c432eb14f9f1a3acbf13bb0",
+      "id": "5c432eb14f9f1a3acbf13bb0",
       "guid": "44050fff-bea7-49b0-acbe-0ffc5eba22ce",
       "thumbnail": "http://placehold.it/150x150?text=thumbnail",
       "name": "eu aliqua adipisicing non incididunt",
@@ -592,7 +592,7 @@ export default [
       ]
     },
     {
-      "_id": "5c432eb1eed63050755d8654",
+      "id": "5c432eb1eed63050755d8654",
       "guid": "4ac27935-0bba-480d-ba49-d3d07e77fad4",
       "thumbnail": "http://placehold.it/150x150?text=thumbnail",
       "name": "sit non",
@@ -629,7 +629,7 @@ export default [
       ]
     },
     {
-      "_id": "5c432eb1845d2cee4dcc6133",
+      "id": "5c432eb1845d2cee4dcc6133",
       "guid": "8ca244b8-3a49-4d3f-a816-1e35dfa186de",
       "thumbnail": "http://placehold.it/150x150?text=thumbnail",
       "name": "excepteur sit",
@@ -666,7 +666,7 @@ export default [
       ]
     },
     {
-      "_id": "5c432eb1ea35b7e5450123e7",
+      "id": "5c432eb1ea35b7e5450123e7",
       "guid": "b25e69e3-1b43-4cde-ae38-2a6cc3844299",
       "thumbnail": "http://placehold.it/150x150?text=thumbnail",
       "name": "eu eiusmod occaecat nisi incididunt",
@@ -703,7 +703,7 @@ export default [
       ]
     },
     {
-      "_id": "5c432eb12fe9941179fd3808",
+      "id": "5c432eb12fe9941179fd3808",
       "guid": "98f0ea02-4d14-4236-bde7-89b0edd17f43",
       "thumbnail": "http://placehold.it/150x150?text=thumbnail",
       "name": "sit officia enim ex laboris",

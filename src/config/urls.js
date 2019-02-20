@@ -1,0 +1,1 @@
+export const URL_SPOT_SERVICE = 'http://' + (process.env.URL_SPOT_SERVICE || 'localhost:8080');

@@ -15,12 +15,12 @@ class SpotListItem extends Component {
   }
 
   render() {
-    const { _id, thumbnail, name, description } = this.props.spot;
+    const { id, thumbnail, name, description } = this.props.spot;
     const largeDevice = window.innerWidth >= breakpoints.tablet;
     return (
-      <Link to={`/spot/${_id}`} style={{textDecoration: 'none', color: 'inherit'}}>
+      <Link to={`/spot/${id}`} style={{textDecoration: 'none', color: 'inherit'}}>
         <li className="media mb-2">
-            <img src={thumbnail} className="mr-3" alt="Thumbnail" />
+            <img src={thumbnail || 'http://placehold.it/50x50'} className="mr-3" alt="Thumbnail" />
             <div className="media-body">
               <h5 className="mt-0 mb-1">{name}</h5>
               <div className="row" style={{color: '#6c757d'}}>

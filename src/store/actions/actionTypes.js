@@ -1,1 +1,9 @@
 export const EXAMPLE_ACTION = 'EXAMPLE_ACTION';
+
+export const SpotActionTypes = {
+  FETCH_ALL: 'FETCH_ALL_SPOTS',
+  FETCH: 'FETCH_SPOT',
+  CREATE: 'CREATE_SPOT',
+  UPDATE: 'UPDATE_SPOT',
+  DELETE: 'DELETE_SPOT'
+}
